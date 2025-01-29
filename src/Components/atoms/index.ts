@@ -1,1 +1,5 @@
 export * from "./Navlink"
+export * from "./MainTitle"
+export * from "./Skeleton"
+export * from "./Text"
+export * from "./WebLink"

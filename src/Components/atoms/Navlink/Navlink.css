@@ -1,0 +1,16 @@
+.navlink {
+    text-decoration: none;
+    margin: 0 0.5em;
+    padding: 0.4em 0.8em;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: 1px solid #D5D5D5;
+    color: #323232;
+    background-color: #EBEBEB;
+    transition: 0.2s;
+}
+
+.navlink:hover {
+    background-color: #D5D5D5;
+}
