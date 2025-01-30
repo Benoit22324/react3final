@@ -1,15 +1,12 @@
 import "./Homepage.css"
-import { MainTitle } from "@atoms/MainTitle"
-import { Text } from "@atoms/Text"
-import { TextLink } from "@molecules/TextLink"
 
 export const Homepage = () => {
     return <>
         <div className="homepage">
-            <MainTitle label="Home Page" />
-            <Text txt="Welcome to the Final Project of this week of React TS." />
-            <Text txt="This project use a Honkai Star Rail fan-made API." />
-            <TextLink txt="Link to his repo:" label="HSR API" link="https://github.com/ajcastan0103/HSR-API" />
+            <h1 className="mainTitle">Home Page</h1>
+            <p className="text">Welcome to the Final Project of this week of React TS.</p>
+            <p className="text">This project use a <span className="lineText">Honkai Star Rail</span> Genshin Impact API.</p>
+            <p className="text">Link to his site: <a href="https://genshin.dev" className="weblink">Genshin API's Site</a></p>
         </div>
     </>
 }

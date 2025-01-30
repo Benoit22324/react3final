@@ -1,0 +1,14 @@
+.charactersViewsContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.charactersViews {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 0.4rem 0;
+}

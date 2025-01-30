@@ -1,2 +1,3 @@
 export * from "./Navbar"
-export * from "./TextLink"
+export * from "./Searchbar"
+export * from "./CharacterView"

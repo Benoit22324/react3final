@@ -1,0 +1,42 @@
+.mainTitle {
+    margin: 0.4rem 0;
+    font-size: 2.5rem;
+    color: #323232;
+}
+
+.subTitle {
+    margin: 0.4rem 0;
+    font-size: 2rem;
+    color: #323232;
+}
+
+.text {
+    margin: 0.4rem 0;
+    font-size: 1.2rem;
+    color: #323232;
+}
+
+.weblink {
+    margin: 0.4rem 0;
+    font-size: 1.2rem;
+    color: #00ADEC;
+}
+
+.lineText {
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.errormsg {
+    color: #DF0000;
+}
+
+.weblink:hover {
+    color: #00DCEC
+}
+.weblink:visited {
+    color: #D276FF
+}
+.weblink:visited:hover {
+    color: #DB92FF
+}
