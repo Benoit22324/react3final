@@ -7,6 +7,8 @@ import { Navbar } from '@molecules/index.ts';
 import { Homepage } from '@pages/Homepage';
 import { Characterspage } from '@pages/Characterspage';
 import { OneCharacterpage } from "@pages/OneCharacterpage";
+import { AddCharacterpage } from "@pages/AddCharacterpage";
+import { Gachapage } from "@pages/Gachapage";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +22,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           <Route path='/react3final' Component={Homepage} />
           <Route path='/react3final/characters' Component={Characterspage} />
           <Route path='/react3final/character/:name' Component={OneCharacterpage} />
+          <Route path='/react3final/addcharacter' Component={AddCharacterpage} />
+          <Route path='/react3final/gacha' Component={Gachapage} />
         </Routes>
       </BrowserRouter>
     </QueryClientProvider>

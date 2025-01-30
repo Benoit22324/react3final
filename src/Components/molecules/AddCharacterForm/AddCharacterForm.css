@@ -1,0 +1,14 @@
+.addcharaform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.2em;
+    border-radius: 10px;
+}
+
+.addcharaformline {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2em 0;
+}

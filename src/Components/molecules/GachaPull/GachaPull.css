@@ -1,0 +1,28 @@
+.gachapull {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pulling {
+    animation: pull 1s ease-in-out infinite;
+}
+
+.rare {
+    color: #F900C7;
+}
+.legendary {
+    color: #F9C700;
+}
+
+@keyframes pull {
+    0% {
+        color: #F900C7;
+    }
+    50% {
+        color: #F9C700;
+    }
+    100% {
+        color: #F900C7;
+    }
+}

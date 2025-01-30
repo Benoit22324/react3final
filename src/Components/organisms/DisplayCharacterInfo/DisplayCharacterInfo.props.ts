@@ -3,7 +3,7 @@ import { TPassive } from "@atoms/PassiveInfoView"
 import { TSkill } from "@atoms/SkillInfoView"
 
 export type DisplayCharacterInfoProps = {
-    character: TCharacter // Trop d'info
+    character: TCharacter
 }
 
 export type TCharacter = {

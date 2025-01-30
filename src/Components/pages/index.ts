@@ -1,3 +1,5 @@
 export * from "./Homepage"
 export * from "./Characterspage"
 export * from "./OneCharacterpage"
+export * from "./AddCharacterpage"
+export * from "./Gachapage"

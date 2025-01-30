@@ -15,7 +15,7 @@ export const OneCharacterpage = () => {
                 isError && <p className="errormsg">{error.message}</p>
             }
             {
-                isLoading ? <Skeleton width="100%" height="80dvh" />
+                isLoading ? <Skeleton width="100%" height="84dvh" />
                 : <DisplayCharacterInfo character={data} />
             }
         </div>

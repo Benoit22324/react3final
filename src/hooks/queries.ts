@@ -4,6 +4,7 @@ import { useQuery } from "@tanstack/react-query"
 export const useCharacters = () => {
     return useQuery({
         queryFn: fetchCharacters,
+        staleTime: 1000 * 60 * 5,
         queryKey: ["characters"]
     })
 }

@@ -6,6 +6,8 @@ export const Navbar = () => {
         <div className="navbar">
             <Navlink label="Home" path="" />
             <Navlink label="Characters" path="characters" />
+            <Navlink label="Add Character" path="addcharacter" />
+            <Navlink label="Gacha" path="gacha" />
         </div>
     </>
 }
