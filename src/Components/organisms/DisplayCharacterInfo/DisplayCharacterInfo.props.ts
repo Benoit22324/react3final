@@ -1,3 +1,4 @@
+import { TConstellation } from "@atoms/ConstellationInfoView"
 import { TPassive } from "@atoms/PassiveInfoView"
 import { TSkill } from "@atoms/SkillInfoView"
 
@@ -19,4 +20,5 @@ export type TCharacter = {
     affiliation: string,
     skillTalents: TSkill[],
     passiveTalents: TPassive[],
+    constellations: TConstellation[],
 }

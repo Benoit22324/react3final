@@ -1,15 +1,26 @@
 .displayCharaContainer {
-    width: 95%;
+    width: 90%;
+    height: 84dvh;
     margin: 0.5em 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 10px;
+    overflow-y: auto;
+}
+
+.displayCharaMainASkill {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px
 }
 
 .displayCharaMainInfo,
 .displayCharaSkillInfo,
-.displayCharaPassiveInfo {
+.displayCharaPassiveInfo,
+.displayCharaConstellationInfo {
     height: fit-content;
     padding: 0.2em;
     text-align: center;
@@ -18,11 +29,14 @@
 }
 
 .displayCharaMainInfo {
-    width: 20%;
+    width: 80%;
 }
 .displayCharaSkillInfo {
     width: 30%;
 }
 .displayCharaPassiveInfo {
+    width: 100%;
+}
+.displayCharaConstellationInfo {
     width: 30%;
 }

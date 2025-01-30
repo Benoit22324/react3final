@@ -3,7 +3,8 @@ export const cleanName = (name: string) => {
     const clearName = newName.map((letter, index) =>
         index === 0 ? letter.toUpperCase()
             : letter === "-" ? " "
-                : letter
+                : newName[index - 1] === "-" ? letter.toUpperCase()
+                    : letter
         )
     return clearName.join('');
 }
