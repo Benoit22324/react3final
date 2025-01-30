@@ -13,7 +13,7 @@ export const DisplayCharacterInfo = ({ character }: DisplayCharacterInfoProps) =
                     <h2 className="subTitle">{character.name}</h2>
                     <p className="text italic">{character.title}</p>
                     <p className="text separation">{character.description}</p>
-                    <p className="text"><span className="bold">Rarity:</span> {character.rarity} Stars</p>
+                    <p className="text"><span className="bold">Rarity:</span> {character.rarity}⭐</p>
                     <p className="text"><span className="bold">Gender:</span> {character.gender}</p>
                     <p className="text"><span className="bold">Birthday:</span> {cleanBirthday(character.birthday)} <span className="italic">(mm-dd)</span></p>
                     <p className="text"><span className="bold">Nation:</span> {character.nation}</p>

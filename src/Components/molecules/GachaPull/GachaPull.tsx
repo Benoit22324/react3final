@@ -32,7 +32,7 @@ export const GachaPull = () => {
         <div className="gachapull">
             {
                 isPulling ? <p className="pulling">Your next character is ...</p>
-                : characterGot && <p className={`text ${rarity === 4 ? "rare" : "legendary"}`}>{cleanName(characterGot)} ({String(rarity)} stars)</p>
+                : characterGot && <p className={`text ${rarity === 4 ? "rare" : "legendary"}`}>{cleanName(characterGot)} ({String(rarity)}⭐)</p>
             }
             {
                 !isPulling && <Button label="Pull" handleClick={handlePull} />
