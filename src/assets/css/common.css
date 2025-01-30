@@ -27,6 +27,20 @@
     font-style: italic;
 }
 
+.separation {
+    padding: 0.2em 0;
+    border-top: 1px solid #323232;
+    border-bottom: 1px solid #323232;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
 .errormsg {
     color: #DF0000;
 }

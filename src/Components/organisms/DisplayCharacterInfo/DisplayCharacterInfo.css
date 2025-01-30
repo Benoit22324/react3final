@@ -1,0 +1,28 @@
+.displayCharaContainer {
+    width: 95%;
+    margin: 0.5em 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.displayCharaMainInfo,
+.displayCharaSkillInfo,
+.displayCharaPassiveInfo {
+    height: fit-content;
+    padding: 0.2em;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #D5D5D5;
+}
+
+.displayCharaMainInfo {
+    width: 20%;
+}
+.displayCharaSkillInfo {
+    width: 30%;
+}
+.displayCharaPassiveInfo {
+    width: 30%;
+}
